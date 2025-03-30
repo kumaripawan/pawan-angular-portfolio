@@ -19,14 +19,6 @@
 }
 
 
-.edu-card {
-  padding: 15px;
-  max-width: 250px;
-}
-
-
-
-
 .edu-card:hover {
   transform: translateY(-5px);
 }
