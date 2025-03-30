@@ -1,0 +1,47 @@
+.education-section {
+  background-color: #eef7ff;
+  padding: 60px 20px;
+  text-align: center;
+}
+
+.education-section h2 {
+  font-size: 2.5rem;
+  margin-bottom: 40px;
+  color: #0a2540;
+}
+
+.education-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+  gap: 30px;
+  max-width: 1100px;
+  margin: 0 auto;
+}
+
+.edu-card {
+  background: white;
+  border-radius: 10px;
+  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.08);
+  padding: 25px;
+  text-align: left;
+}
+
+.edu-card h3 {
+  font-size: 1.1rem;
+  color: #002244;
+  margin-bottom: 5px;
+}
+
+.edu-card span {
+  font-size: 1rem;
+  color: #007acc;
+  display: block;
+  margin-bottom: 8px;
+}
+
+.edu-card .date {
+  font-size: 0.95rem;
+  color: #666;
+  font-style: italic;
+  margin-bottom: 10px;
+}
