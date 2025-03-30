@@ -1,59 +1,56 @@
 .education-section {
+  padding: 80px 20px;
   background-color: #eef7ff;
-  padding: 60px 20px;
+  color: #333;
+}
+
+.education-section .container {
+  max-width: 1000px;
+  margin: 0 auto;
   text-align: center;
 }
 
 .education-section h2 {
-  font-size: 2.5rem;
+  font-size: 2rem;
   margin-bottom: 40px;
   color: #0a2540;
 }
 
 .education-grid {
-  display: flex;
-  flex-wrap: nowrap;
-  overflow-x: auto;
-  gap: 20px;
-  padding: 10px;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 30px;
+  text-align: left;
 }
 
-
-.edu-card:hover {
-  transform: translateY(-5px);
+.edu-card {
+  background-color: #ffffff;
+  padding: 10px;
+  border-radius: 10px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.08);
 }
 
 .edu-card h3 {
-  font-size: 1.2rem;
   color: #002244;
   margin-bottom: 8px;
-  line-height: 1.4;
+  font-size: 1.1rem;
 }
 
 .edu-card span {
-  font-size: 1rem;
   color: #007acc;
+  font-size: 0.95rem;
   display: block;
-  margin-bottom: 8px;
+  margin-bottom: 6px;
 }
 
 .edu-card .date {
-  font-size: 0.95rem;
-  color: #666;
   font-style: italic;
-  margin-bottom: 12px;
+  font-size: 0.9rem;
+  color: #666;
+  margin-bottom: 10px;
 }
 
 .edu-card p {
   font-size: 0.95rem;
-  line-height: 1.5;
-}
-.education-frame {
-  border: 2px solid #d0e3f0;
-  border-radius: 12px;
-  padding: 30px;
-  background-color: #f9fcff;
-  max-width: 1200px;
-  margin: 0 auto;
-  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.06);
+  line-height: 1.4;
 }
